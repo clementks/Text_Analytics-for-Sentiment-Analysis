@@ -8,9 +8,44 @@ Using Natural Language Processing to determine Customer Sentiments and Predict C
 	Hence, topic modelling & document clustering techniques will be employed in this project to discover the topics with relation to each cluster of product class and department, to use natural language processing for sentimental analytics to assess any potential customer churn and use it for to strengthen organic SEO in order to improve search engine page-ranking (SERP). Content marketing is the best way to improve organic search engine optimization by posting relevant images built from topic modelling and web document clustering. By creating high quality content with images that's focused around targeted keywords and phrases using techniques from topic modelling and document clustering, it can improve visibility on the search engines with higher leads acquisition to conversion rate.
 
 
+i.	State the data that are required.
+
+   The most critical data for this project is the Review Text to identify key topic phrase, which is complemented by data from other fields to provide relevancy & association to the target audience.
+
+![image](https://user-images.githubusercontent.com/32416129/127283175-5cc036cf-e101-44ab-8dda-8803f27303a7.png)
 
 
+ii.	Provide relevant business and operational definitions of the data.
 
+
+    Product reviews are multifaceted, and hence the textual content of product reviews is an important determinant of consumers' choices as to how textual data can be used to learn consumers' relative preferences for different product features and also how text can be used for predictive modeling of future changes in sales. Both negative sentiment and positive sentiment of the reviews are individually significant predictors influence in predicting future sales or customer demand which is an important part of Supply Chain Management in managing finished goods inventory stockpoints.
+
+
+Rating: Quantitative measure of customer’s satisfaction level of the purchase transaction with respect to the Clothing ID.
+
+Feedback Count: Quantitative measure on the number of customers providing their feedback from the survey made after their purchase transaction.
+
+Review Text: Voice of Customer (VoC) or qualitative information of customer’s satisfaction level with respect to the Clothing ID of the purchase transaction.
+
+    Product Reviews can be useful to explore unpromising avenues in ways to improve web content for new visitors & ads re-targetting to serve online visitors who have already visited any e-tailers website before. 
+
+
+iii. Details for the prediction involved.
+
+
+   The typical prediction involved in the e-commerce space retailer or merchants comprises of customer retention and churn model based on implicit feedbacks such as past purchase transactions recency, frequency, monetary_value and explicit feedbacks such as text reviews and satisfaction rating level. For any e-tailers, this kind of prediction capability is also extremely important in order to manage the supply chain efficiently as well as ensure customer satisfaction, as such this project investigates the efficacy of various modeling techniques, namely, regression analysis, decision-tree analysis. The scope of this project include using text reviews from explicit feedbacks to predict satisfaction level or sentiments polarity expressed in categorical scale of “POSITIVE”, “NEUTRAL” and “NEGATIVE”.
+	Satisfaction rating level extracted from the web mining process is firstly converted from ordinal scale of 1-5 into categorical format as “POSITIVE”, “NEUTRAL” and “NEGATIVE” before it is split into training and test data for predicting sentiments using various supervised, unsupervised and ensemble machine learning algorithm within classification model.
+	All reviews with rating 1 and 2 are marked as ‘negative’ reviews, reviews with rating 3 is marked as ‘neutral’ and reviews with rating 4 and 5 are marked as ‘positive’.
+
+![image](https://user-images.githubusercontent.com/32416129/127283489-6627d8ef-51b5-4a35-8980-e5e7d552146b.png)
+
+   The machine learning models that will be evaluated include traditional supervised multinomial Naïve Bayes models, Support Vector Machines (SVM), unsupervised machine model include DecisionTree with gini criterion, and Ensemble model such as AdaBoost and RandomForest for predicting sentiment polarity.
+   
+   ![image](https://user-images.githubusercontent.com/32416129/127283662-58938f0d-a555-4e67-93aa-8fea9889e8fc.png)
+
+ 
+   Leverage on pipeline module from Scikit-Learn to build this machine learning pipeline which combines CountVectorizer, TfidTransformer and various supervised, unsupervised and ensemble machine model(s) as mentioned earlier.
+   
 	
 b.	Text preprocessing – Understand and clean the text data.
 
