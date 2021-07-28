@@ -43,22 +43,22 @@ Review Text: Voice of Customer (VoC) or qualitative information of customer’s 
    
    ![image](https://user-images.githubusercontent.com/32416129/127283662-58938f0d-a555-4e67-93aa-8fea9889e8fc.png)
 
- 
+
    Leverage on pipeline module from Scikit-Learn to build this machine learning pipeline which combines CountVectorizer, TfidTransformer and various supervised, unsupervised and ensemble machine model(s) as mentioned earlier.
    
+   ![image](https://user-images.githubusercontent.com/32416129/127285483-dba99633-0393-4fa9-a3da-951eacf3d383.png)
+   
+   GridSearchCV was also used for tuning the hyper-parameters of an estimator for each of the supervised, unsupervised and ensemble machine model.
+   
+   ![image](https://user-images.githubusercontent.com/32416129/127285658-d69e5b68-e7f1-4f90-ad71-83bfcff7546e.png)
+
 	
 **iv.	Text preprocessing – Understand and clean the text data.**
 
 
 The Data pre-processing comprises of these steps:
-	Tokenization: Split the text into words. Lowercase all words so that it aggregate raw text corpus into similar or common words which is useful when processing the subsequent stopword list and spelling-checker.
-	Words that have fewer than 2 characters are removed since it does not provide much value for topic modelling or features term.
-	Build stopwords list to remove common vocabulary and English words that does not provide any value for features engineering related to context of woman clothing or fashion.
-	Use SpellChecker instead of Textblob. Spellchecker has been tested and verified by myself that it has better & higher accuracy than Textblob which often mis-corrected. Spelling-checker is important to correct and remove unwanted errors. 
-	Remove any digit or numeric characters since it has little value or relevance to topic modelling & bring any insights to marketing business context.
-	Remove html tag characters since it has little value or relevance to topic modelling & bring any insights to marketing business context.  HTML tags, which do not add much value when analyzing text for topic modelling, hence this function help to remove such unnecessary content.
-	Removing accented characters: In text corpus that is dealt with in this woman’s clothing review in English Language, there are accented characters/letters that needs to be converted and standardized into ASCII characters. A simple example is converting é to e
 
+![image](https://user-images.githubusercontent.com/32416129/127285875-a2c9ba6b-b1a6-4038-82f7-e3cfb575f3fc.png)
 
 
 **v.	Feature engineering – Represent the unstructured text data in a structured format using various feature engineering models.**
