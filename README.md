@@ -5,17 +5,17 @@ Using Natural Language Processing to determine Customer Sentiments and Predict C
 
 
    In this competitive E-commerce shopping experience, any firm's marketing team can realize the gap in their sales revenue and their e-commerce web content search engine optimization efforts & high customer churn-rate.  Their online store can be bombarded with customer’s reviews that is hardly harness in allowing marketing team to learn a great deal about customer sentiment and preferences towards products or services. Marketing team could realize their assortment planning based on customer purchase patterns but find it challenging to solicit & grasp customer’s opinions on particular products and their categories. Hence, they may want to unleash other avenues to enhance their existing content marketing development of each product category by leveraging on topic modeling for better content development in their landing page.
-	Hence, topic modelling & document clustering techniques can be employed to discover the topics with relation to each cluster of product class and department, to use natural language processing (NLP) for sentimental analytics to assess any potential customer churn and use it for to strengthen organic SEO in order to improve search engine page-ranking (SERP). Content marketing is the best way to improve organic search engine optimization by posting relevant images built from topic modelling and web document clustering. By creating high quality content with images that's focused around targeted keywords and phrases using techniques from topic modelling and document clustering, it can improve visibility on the search engines with higher leads acquisition to conversion rate.
+	 Hence, topic modelling & document clustering techniques can be employed to discover the topics with relation to each cluster of product class and department, to use natural language processing (NLP) for sentimental analytics to assess any potential customer churn and use it for to strengthen organic SEO in order to improve search engine page-ranking (SERP). Content marketing is the best way to improve organic search engine optimization by posting relevant images built from topic modelling and web document clustering. By creating high quality content with images that's focused around targeted keywords and phrases using techniques from topic modelling and document clustering, it can improve visibility on the search engines with higher leads acquisition to conversion rate.
 
 
-**i.	State the type of data that are required.**
+**i.	  State the type of data that are required.**
 
    The most critical data for this project is the Review Text to identify key topic phrase, which is complemented by data from other fields to provide relevancy & association to the target audience.
 
 ![image](https://user-images.githubusercontent.com/32416129/127283175-5cc036cf-e101-44ab-8dda-8803f27303a7.png)
 
 
-**ii.	Provide relevant business and operational definitions of the data.**
+**ii.	  Provide relevant business and operational definitions of the data.**
 
 
    Product reviews are multifaceted, and hence the textual content of product reviews is an important determinant of consumers' choices as to how textual data can be used to learn consumers' relative preferences for different product features and also how text can be used for predictive modeling of future changes in sales. Both negative sentiment and positive sentiment of the reviews are individually significant predictors influence in predicting future sales or customer demand which is an important part of Supply Chain Management in managing finished goods inventory stockpoints.
@@ -61,7 +61,7 @@ The Data pre-processing comprises of these steps:
 
 
 
-c.	Feature engineering – Represent the unstructured text data in a structured format using various feature engineering models.
+**v.	Feature engineering – Represent the unstructured text data in a structured format using various feature engineering models.**
 
 
    There are some potential problems that might arise with the Bag of Words model when it is used on large corpora of text data. Since BOW feature vectors are based on absolute term frequencies, there might be some terms that occur frequently across all documents and these may tend to overshadow other terms in the feature set. For words that don’t occur as frequently, it might be more interesting and effective to use combination of two metrics, term frequency (tf) and inverse document frequency (idf ) to identify as features relevant to specific business domain arena (ie: fashion clothing).
