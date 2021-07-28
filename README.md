@@ -91,5 +91,34 @@ When seeing the same keywords being repeated in multiple topics, it’s probably
 ![image](https://user-images.githubusercontent.com/32416129/127288711-a8cfa4f5-c833-470d-9b68-24af79983e37.png)
 
 
+# Sentiment Analysis
+
+The results in this analysis confirms our previous data exploration analysis, where the data are very skewed to the positive reviews as shown by the higher support counts in the classification report. 
+Despite of the fact that Neutral and Negative results are not very strong predictors in this data set, it still shows 83% accuracy level in predicting the sentiment analysis, which we tested and worked very well when inputting unseen text (Review_Test). 
+Finally, the overall result from Confusion Matrix shows the performance of classification model (or “classifier”) for Linear Support Vector Model on a set of test data for which the true values are known.
+
+![image](https://user-images.githubusercontent.com/32416129/127293239-6b7ed85c-bdf9-442d-906a-ba62e85aa4a3.png)
+
+We see that Positive sentiment prediction can be daunting with neutral and negative ratings being misclassified with count of 70 and 33 respectively. However, based on the overall number of significant positive sentiment at a score 747, this misclassification error of 17% are considered significant depending on the application if this happens to be implemented in recommender system.
+The evaluation in the section below describes the performance of SentiWordNet & VADER lexicon-based model.
+
+![image](https://user-images.githubusercontent.com/32416129/127293559-6aa73c32-30a6-45b6-bcd4-acea59711189.png)
+
+![image](https://user-images.githubusercontent.com/32416129/127293675-bf4ec6b4-f1a1-43d4-bf4d-8cec6993f309.png)
+
+
+Based on the threshold settings applied the same to both models, the classification report shows that VADER has a better accuracy performance with lower probabilities of false negative and false positive. The confusion matrix table shows the count of true positive, true negative, false negative and false positive from the classification. Hence, VADER model will be preferred choice in predicting unseen observations. 
+
+![image](https://user-images.githubusercontent.com/32416129/127293816-d12a6b96-2559-44ed-aff0-15ebb7ac7259.png)
+
+
+**i.	Deploy the final chosen model to predict new unseen observations.**
+
+For the Unsupervised lexicon-based model given that threshold value settings applied are the same., VADER lexicon-based model will be adopted instead of SentiWordNet due to higher overall accuracy.
+
+
+
+
+
 
  
