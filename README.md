@@ -1,7 +1,7 @@
 # Text_Analytics-for-Sentiment-Analysis
 Using Natural Language Processing to determine Customer Sentiments and Predict Customer Churn (Negative Review) or Retention (Positive Review) based on the statistical skewness
 
-**Business Problems**
+# Business Problems
 
 
    In this competitive E-commerce shopping experience, any firm's marketing team can realize the gap in their sales revenue and their e-commerce web content search engine optimization efforts & high customer churn-rate.  Their online store can be bombarded with customer’s reviews that is hardly harness in allowing marketing team to learn a great deal about customer sentiment and preferences towards products or services. Marketing team could realize their assortment planning based on customer purchase patterns but find it challenging to solicit & grasp customer’s opinions on particular products and their categories. Hence, they may want to unleash other avenues to enhance their existing content marketing development of each product category by leveraging on topic modeling for better content development in their landing page.
