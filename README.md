@@ -8,14 +8,14 @@ Using Natural Language Processing to determine Customer Sentiments and Predict C
 	Hence, topic modelling & document clustering techniques can be employed to discover the topics with relation to each cluster of product class and department, to use natural language processing (NLP) for sentimental analytics to assess any potential customer churn and use it for to strengthen organic SEO in order to improve search engine page-ranking (SERP). Content marketing is the best way to improve organic search engine optimization by posting relevant images built from topic modelling and web document clustering. By creating high quality content with images that's focused around targeted keywords and phrases using techniques from topic modelling and document clustering, it can improve visibility on the search engines with higher leads acquisition to conversion rate.
 
 
-i.	State the data that are required.
+**i.	State the type of data that are required.**
 
    The most critical data for this project is the Review Text to identify key topic phrase, which is complemented by data from other fields to provide relevancy & association to the target audience.
 
 ![image](https://user-images.githubusercontent.com/32416129/127283175-5cc036cf-e101-44ab-8dda-8803f27303a7.png)
 
 
-ii.	Provide relevant business and operational definitions of the data.
+**ii.	Provide relevant business and operational definitions of the data.**
 
 
    Product reviews are multifaceted, and hence the textual content of product reviews is an important determinant of consumers' choices as to how textual data can be used to learn consumers' relative preferences for different product features and also how text can be used for predictive modeling of future changes in sales. Both negative sentiment and positive sentiment of the reviews are individually significant predictors influence in predicting future sales or customer demand which is an important part of Supply Chain Management in managing finished goods inventory stockpoints.
@@ -30,7 +30,7 @@ Review Text: Voice of Customer (VoC) or qualitative information of customer’s 
    Product Reviews can be useful to explore unpromising avenues in ways to improve web content for new visitors & ads re-targetting to serve online visitors who have already visited any e-tailers website before. 
 
 
-iii. Details for the prediction involved.
+**iii. Details for the prediction involved.**
 
 
    The typical prediction involved in the e-commerce space retailer or merchants comprises of customer retention and churn model based on implicit feedbacks such as past purchase transactions recency, frequency, monetary_value and explicit feedbacks such as text reviews and satisfaction rating level. For any e-tailers, this kind of prediction capability is also extremely important in order to manage the supply chain efficiently as well as ensure customer satisfaction, as such this project investigates the efficacy of various modeling techniques, namely, regression analysis, decision-tree analysis. The scope of this project include using text reviews from explicit feedbacks to predict satisfaction level or sentiments polarity expressed in categorical scale of “POSITIVE”, “NEUTRAL” and “NEGATIVE”.
@@ -47,7 +47,7 @@ iii. Details for the prediction involved.
    Leverage on pipeline module from Scikit-Learn to build this machine learning pipeline which combines CountVectorizer, TfidTransformer and various supervised, unsupervised and ensemble machine model(s) as mentioned earlier.
    
 	
-b.	Text preprocessing – Understand and clean the text data.
+**iv.	Text preprocessing – Understand and clean the text data.**
 
 
 The Data pre-processing comprises of these steps:
