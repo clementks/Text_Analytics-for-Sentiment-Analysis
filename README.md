@@ -1,4 +1,4 @@
-# Text_Analytics-for-Sentiment-Analysis
+# Text_Analytics-for-Sentiment-Analysis & Topic Modelling Relevant for Content Development or possibly SEO Optimization in an Organic Search/Query
 Using Natural Language Processing to determine Customer Sentiments and Predict Customer Churn (Negative Review) or Retention (Positive Review) 
 
 # Business Problems
